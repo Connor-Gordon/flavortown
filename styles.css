@@ -24,7 +24,7 @@ html {box-sizing:border-box;}
 
 .header {
 	border: 1px solid black;
-	background-image: url("logo.png");
+	background-image: url("Revel.png");
 	background-position: center -165px;	
 	background-repeat: no-repeat; 
 	height: 186px;
@@ -49,7 +49,7 @@ html {box-sizing:border-box;}
 	background-color:white;
 	list-style: none;
 	width: 326px;
-	height: 224px;
+	height: 319px;
 	margin-right: 21px;
 }
 
@@ -59,7 +59,7 @@ html {box-sizing:border-box;}
 	background-color:white;
 	height: 978px;
 	display: flex;
-	margin-top: 26px;
+	margin-top: 128px;
 
 }
 
