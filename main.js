@@ -13,7 +13,9 @@ $(document).ready(function(){
 		$(this).addClass('active')
 	})
 
-	
+	let menuInfo = $.get('https://obscure-tundra-54269.herokuapp.com/bar-food', function(data){
+		console.log(data)
+	})
 
 
 
