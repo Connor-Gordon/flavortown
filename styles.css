@@ -3,6 +3,7 @@ html {box-sizing:border-box;}
 
  body {
  	background-color: black;
+ 	font-family: arial, sans-serif;
  	
  }
 .container {
@@ -53,6 +54,9 @@ html {box-sizing:border-box;}
 	margin-right: 21px;
 }
 
+.map {
+
+}
 
 
 .bigDiv {
@@ -83,8 +87,63 @@ html {box-sizing:border-box;}
 
 .footer {
 	border: 1px solid black;
-	background-color:white;
-	height: 108px;
+	background-image: url("wood.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat; 
+	height: 150px;
 	margin-top: 41px;
+	display: flex;
 
 }
+
+.footer > p {
+	color: white;
+	position:relative;
+	bottom: -51px;
+	left: 70px;
+
+}
+
+.icons > ul {
+	margin:0;
+	display: flex;
+	justify-content: flex-end;
+	list-style:none;
+	
+	
+}
+
+ i {
+ 	margin: 5px;
+ 	padding: 5px;
+ 	font-size: 45px;
+ 	width: 60px;
+
+}
+
+#facebook > i {
+	color: white;
+	background-color: rgba(52,67,133,0.6);
+	margin:0px;
+
+}
+
+.icon-lbl {
+	border-bottom: 3px solid;
+	border-color: gray;
+}
+
+
+#twitter > i{
+	color:white;
+	background-color: rgba(88,120,187,3);
+	margin:0px;
+}
+
+#youtube > i{
+	color:white;
+	background-color: rgba(161,38,34,3);
+	margin:0px;
+
+}
+
