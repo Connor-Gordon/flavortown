@@ -1,0 +1,90 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+ body {
+ 	background-color: black;
+ 	
+ }
+.container {
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+
+
+}
+
+.mainPic {
+	background-image: url("main-pic.jpg");
+	background-position: -546px -490px;
+	background-size: auto;	
+	background-repeat: no-repeat; 
+	height: 379px;
+	margin-top: 26px;
+}
+
+.header {
+	border: 1px solid black;
+	background-image: url("logo.png");
+	background-position: center -165px;	
+	background-repeat: no-repeat; 
+	height: 186px;
+
+}
+
+.boxes {
+	display: flex;
+	height: 263px;
+	margin-top: 38px;
+
+}
+
+.cats {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+}
+
+.content {
+	border: 1px solid black;
+	background-color:white;
+	list-style: none;
+	width: 326px;
+	height: 224px;
+	margin-right: 21px;
+}
+
+
+
+.bigDiv {
+	background-color:white;
+	height: 978px;
+	display: flex;
+	margin-top: 26px;
+
+}
+
+.tab {
+	border: 1px solid black;
+	background-color:white;
+	display: flex;
+	height: 493px;
+	width: 623px;
+
+}
+
+.foodPics {
+	border: 1px solid black;
+	background-color:white;
+	display: flex;
+	height: 978px;
+	width: 397px;
+
+}
+
+.footer {
+	border: 1px solid black;
+	background-color:white;
+	height: 108px;
+	margin-top: 41px;
+
+}
