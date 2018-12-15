@@ -96,12 +96,22 @@ html {box-sizing:border-box;}
 
 }
 
+#follow {
+	color: white;
+	font-size: 19px;
+	position: relative;
+	top:2px;
+	left:66px;
+	opacity: 0.5;
+}
+
 #copyright {
 	color: white;
 	position:relative;
-	bottom: -110px;
-	right: 576px;
+	bottom: -119px;
+	right: 731px;
 	opacity: 0.5;
+	font-size: 12px;
 
 }
 
@@ -112,14 +122,15 @@ html {box-sizing:border-box;}
 	font-family: Palatino Linotype;
 	position: relative;
 	top:24px;
-	left: 315px;
+	left: 204px;
 
 }
 
 .icons {
 	display: flex;
 	position: relative;
-	top: 17px;
+	top: 28px;
+	right: 142px;
 }
 .icon-lbl {
 	display: flex;
