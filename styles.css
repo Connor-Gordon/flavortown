@@ -96,20 +96,38 @@ html {box-sizing:border-box;}
 
 }
 
-.footer > p {
+#copyright {
 	color: white;
 	position:relative;
-	bottom: -51px;
-	left: 70px;
+	bottom: -110px;
+	right: 576px;
+	opacity: 0.5;
 
 }
 
-.icons > ul {
-	margin:0;
+#revel {
+	font-size: 57px; 
+	color: maroon; 
+	font-weight: bolder;
+	font-family: Palatino Linotype;
+	position: relative;
+	top:24px;
+	left: 315px;
+
+}
+
+.icons {
 	display: flex;
-	justify-content: flex-end;
+	position: relative;
+	top: 17px;
+}
+.icon-lbl {
+	display: flex;
+	margin:13px;
 	list-style:none;
-	
+	height: 44px;
+	opacity: 0.5;
+	width: 46px;
 	
 }
 
@@ -125,25 +143,29 @@ html {box-sizing:border-box;}
 	color: white;
 	background-color: rgba(52,67,133,0.6);
 	margin:0px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 33px;
 
-}
-
-.icon-lbl {
-	border-bottom: 3px solid;
-	border-color: gray;
 }
 
 
 #twitter > i{
 	color:white;
-	background-color: rgba(88,120,187,3);
+	background-color: rgba(88,120,187,0.6);
 	margin:0px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 33px;
 }
 
-#youtube > i{
+#instagram > i{
 	color:white;
-	background-color: rgba(161,38,34,3);
+	background-color: rgba(161,38,34,0.6);
 	margin:0px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 33px;
 
 }
 
