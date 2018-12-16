@@ -5,14 +5,24 @@ html {box-sizing:border-box;}
  body {
  	background-color: black;
  	font-family: arial, sans-serif;
- 	
  }
+
+ ul {
+	list-style: none;
+}
+
 .container {
 	margin: auto;
 	width: 100%;
 	max-width: 1020px;
+}
 
-
+.header {
+	border: 1px solid black;
+	background-image: url("Revel.png");
+	background-position: center -165px;	
+	background-repeat: no-repeat; 
+	height: 186px;
 }
 
 .mainPic {
@@ -24,20 +34,10 @@ html {box-sizing:border-box;}
 	margin-top: 26px;
 }
 
-.header {
-	border: 1px solid black;
-	background-image: url("Revel.png");
-	background-position: center -165px;	
-	background-repeat: no-repeat; 
-	height: 186px;
-
-}
-
 .boxes {
 	display: flex;
 	height: 263px;
 	margin-top: 38px;
-
 }
 
 .cats {
@@ -53,44 +53,93 @@ html {box-sizing:border-box;}
 	width: 326px;
 	height: 319px;
 	margin-right: 21px;
+	font-family: Palatino Linotype;
+	font-size:12px;
+	letter-spacing: 2px;
+	color: maroon;
 }
 
+.latest-news {
+	list-style: none;
+	text-align: center;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color: maroon;
+}
+
+.latest-news > h2 {
+	margin: 11px;
+}
+
+.title {
+	color: black;
+}
+
+#bot {
+	border-bottom: 1px solid black;
+	margin: 8px;
+}
+
+#bottom-news {
+	line-height: 20px;
+}
+
+#bottom-news > div {
+	margin: 3px;
+	font-size: 11px;
+}
+
+.special {
+	list-style: none;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+
+#s-img {
+	width: 310px;
+	height: 200px;
+	margin-top: 9px;
+}	
+
+#food-desc {
+	line-height: 12px;
+	font-size: 11px;
+}
 
 .bigDiv {
 	background-color:white;
-	height: 978px;
 	display: flex;
 	margin-top: 128px;
+	background-color: black;
+	margin-left: 10px;
 
+	font-family: Palatino Linotype;
+	font-size:15px;
+	letter-spacing: 2px;
 }
 
 .tab {
 	border: 1px solid black;
-	background-color:white;
-	display: flex;
-	height: 493px;
-	width: 623px;
-
-ul {
-	list-style: none;
+	background-color:black;
 }
 
+#tab1 {
+	line-height: 1.5;
+}
+
+.tabbys {
+	padding:20px;
+}
 
 .tabList {
 	display: flex;
 	text-decoration: none;
 	background: black;
-	height: 40px;
+	height: 50px;
 	padding-top: 20px;
 	margin-bottom: 0px;
-}
-
-#menu {
-	color: white;
-}
-
-#appetizername {
-	color: white;
 }
 
 .tabList li a {
@@ -100,109 +149,28 @@ ul {
 }
 
 .tabList li a:hover {
-	
 	text-decoration: underline;
 	text-decoration-color: maroon;
 }
 
 .tabContainer {
-	width: 700px;
 	background-color: black;
 	border-top: 2px solid maroon;
 	color: white;
-	padding: 30px;
+	width: 750px;
 }
-
 
 #storyPic {
-	margin: 30px 0px;
+	margin: 20px;
+	width: 650px;
 }
 
-.foodPics {
-	border: 1px solid black;
-	background-color:white;
-	display: flex;
-	height: 978px;
-	width: 397px;
-	flex-direction: column;
-	margin-left: -10px;
-}
-
-.footer {
-	border: 1px solid black;
-	background-image: url("wood.jpg");
-	background-size: cover;	
-	background-repeat: no-repeat; 
-	height: 150px;
-	margin-top: 41px;
-	display: flex;
-
-}
-
-.footer > p {
+#menu {
 	color: white;
-	position:relative;
-	bottom: -51px;
-	left: 70px;
-
 }
 
-.icons > ul {
-	margin:0;
-	display: flex;
-	justify-content: flex-end;
-	list-style:none;
-	
-	
-}
-
- i {
- 	margin: 5px;
- 	padding: 5px;
- 	font-size: 45px;
- 	width: 60px;
-
-}
-
-#facebook > i {
+#appetizername {
 	color: white;
-	background-color: rgba(52,67,133,0.6);
-	margin:0px;
-
-}
-
-.icon-lbl {
-	border-bottom: 3px solid;
-	border-color: gray;
-}
-
-
-#twitter > i{
-	color:white;
-	background-color: rgba(88,120,187,3);
-	margin:0px;
-}
-
-#youtube > i{
-	color:white;
-	background-color: rgba(161,38,34,3);
-	margin:0px;
-
-}
-
-.images {
-	background-color: black;
-	color: white;
-	width: 200px;
-	margin:10px;
-	overflow: hidden;
-}
-
-#picsLabel {
-	color:white;
-	width: 100px;
-	height: 20px;
-	font-size: 16px;
 }
 
 #formR {
@@ -216,7 +184,7 @@ ul {
 }
 
 #fName {
-	width: 300px;
+	width: 350px;
 }
 
 #num_Guests {
@@ -252,3 +220,88 @@ ul {
 	text-decoration: underline;
 	text-decoration-color: maroon;
 }
+
+.foodPics {
+	border: 1px solid black;
+	display: flex;
+	width: 397px;
+	flex-direction: column;
+	margin-left: -10px;
+}
+
+
+.images {
+	background-color: black;
+	color: white;
+	width: 200px;
+	margin:10px;
+	overflow: hidden;
+}
+
+.footer {
+	border: 1px solid black;
+	background-image: url("wood.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat; 
+	height: 150px;
+	margin-top: 41px;
+	display: flex;
+}
+
+.footer > p {
+	color: white;
+	position:relative;
+	bottom: -51px;
+	left: 70px;
+}
+
+.icons {
+	margin:0;
+	display: flex;
+	justify-content: flex-end;
+	list-style:none;
+	margin: 50px;
+	text-decoration: none;
+}
+
+
+
+ i {
+ 	margin: 5px;
+ 	padding: 5px;
+ 	font-size: 35px;
+ 	width: 50px;
+}
+
+#facebook > a > i {
+	color: white;
+	background-color: rgba(52,67,133,0.6);
+	margin:0px;
+
+}
+
+.icon-lbl {
+	border-bottom: 3px solid;
+	border-color: gray;
+}
+
+
+#twitter > a > i{
+	color:white;
+	background-color: rgba(88,120,187,3);
+	margin:0px;
+}
+
+#youtube > a > i{
+	color:white;
+	background-color: rgba(161,38,34,3);
+	margin:0px;
+
+}
+
+
+
+
+
+
+

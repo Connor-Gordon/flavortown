@@ -4,22 +4,40 @@
 	<meta charset="UTF-8">
 	<title>Revel Bar</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 
 
 <body>
 	<div class="container">
 		<div class="header">
-			LOGO
 		</div>
 		<div class="mainPic">
 			
 		</div>
 		<div class="boxes">
 			<ul class="cats">
-				<li  class="content"></li>
-				<li  class="content"></li>
-				<li  class="content" id="map"><iframe src="https://www.google.com/maps/embed/v1/view?center=...&zoom=...&key=..." allowfullscreen></iframe></li>
+				<li  class="content">
+					<ul class="latest-news">
+						<li><h1 class="title" id="bot">LATEST NEWS</h1></li>
+						<li><h2 class="title">Lorem ipsum dolor sit amet.</h2></li>
+						<li id="bottom-news"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A soluta autem quam labore facilis possimus enim consequatur ad eaque, voluptatibus magni est voluptatum modi culpa maxime quas odio adipisci, ipsum.</div>
+						<div>Optio repellat hic, iure rerum necessitatibus saepe nisi eum, quo repellendus ducimus delectus dignissimos aut maiores nesciunt ab ipsa assumenda, nam tenetur ad suscipit obcaecati quos reiciendis facilis. Autem, id.</div></li>
+					</ul>
+				</li>
+				<li  class="content">
+					<ul class="special">
+						<li><h1 class="title" id="bot">TODAY'S SPECIAL</h1></li>
+						<li><img id="s-img" src="Chew & Cheer.jpeg"></li>
+						<li id="food-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus est perferendis sed voluptas vero inventore eligendi pariatur blanditiis debitis ex accusantium quibusdam.</li>
+					</ul>
+				</li>
+				<li  class="content" id="map">
+					<ul class="special">
+						<li><h1 class="title" id="bot">OUR LOCATION</h1></li>
+						<li><div class="mapouter"><div class="gmap_canvas"><iframe width="310" height="263" id="gmap_canvas" src="https://maps.google.com/maps?q=1112%20S%20Casino%20Center%20BlvdLas%20Vegas%2C%20NV%2089104&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{text-align:right;height:263px;width:310px;}.gmap_canvas {overflow:hidden;background:none!important;height:263px;width:310px;}</style></div></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 		<div class="bigDiv">
@@ -30,16 +48,16 @@
 					<li><a href="#tab3">Reservations</a></li>
 				</ul>
 				<div class="tabContainer" id="tabs">
-					<div id="tab1">
-						Lorem ipsizzle dolor you son of a bizzle dope, for sure gizzle sure. Nullizzle sapizzle stuff, dope volutpat, boofron quis, gravida vizzle, i saw beyonces tizzles and my pizzle went crizzle. Pellentesque eget tortor. Sed erizzle. Fusce yo mamma dolizzle tellivizzle turpis tempizzle nizzle. Mauris pellentesque nibh et turpis.<img id="storyPic" src="http://www.copelandsatlanta.com/Assets/Images/Locations_Menus/store%20info%20Generic.jpg"/> Gangsta check out this tortor.  Pellentesque dope nizzle mammasay mammasa mamma oo sa. In hizzle cool platea dictumst. Break yo neck, yall . Tellivizzle tellus urna, check it out break yo neck, yall, we gonna chung ac, eleifend fizzle, nunc. Fo shizzle suscipit. Integer semper velit sed purus.
+					<div class="tabbys" id="tab1">
+						Lorem ipsizzle dolor you son of a bizzle dope, for sure gizzle sure. Nullizzle sapizzle stuff, dope volutpat, boofron quis, gravida vizzle, i saw beyonces tizzles and my pizzle went crizzle. Pellentesque eget tortor. Sed erizzle. Fusce yo mamma dolizzle tellivizzle turpis tempizzle nizzle. Mauris pellentesque nibh et turpis.<img id="storyPic" src="https://s3-media2.fl.yelpcdn.com/bphoto/SER3reXeoTSmzvdExsuxPQ/o.jpg"/> Gangsta check out this tortor.  Pellentesque dope nizzle mammasay mammasa mamma oo sa. In hizzle cool platea dictumst. Break yo neck, yall . Tellivizzle tellus urna, check it out break yo neck, yall, we gonna chung ac, eleifend fizzle, nunc. Fo shizzle suscipit. Integer semper velit sed purus.
 					</div>
-					<div id="tab2">
+					<div class="tabbys" id="tab2">
 						<div>Our Menu Selection...
 						</div>
 						<div id="menu">
 						</div>
 					</div>
-					<div id="tab3">
+					<div class="tabbys" id="tab3">
 						<form id="formR">
 							<label id="label">Full Name</label>
 							<input type="text" id="fName">
@@ -63,8 +81,6 @@
 			</div>
 			<div class="foodPics">
 				<ul class="pics">
-					<li id="picsLabel">Food Photos...</li>
-					<li><img class="images" src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2775&q=80"/></li>
 					<li><img class="images" src="file:///Users/connorgordon/Downloads/3548040761_419e46d6fb_z.jpg"/></li>
 					<li><img class="images"src="https://images.unsplash.com/photo-1456418047667-56bcd35b1a88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"/></li>
 					<li><img class="images" src="file:///Users/connorgordon/Downloads/7915831292_28866b06aa_z.jpg"></li>
@@ -76,31 +92,14 @@
 		<div class="footer">
 			<p>© 2018 Revel Bar</p>
 			<ul class="icons">
-			<li class="icon-lbl" id="facebook"><i class="fab fa-facebook-f"></i></li>
-			<li class="icon-lbl" id="twitter"><i class="fab fa-twitter"></i></li>
-			<li class="icon-lbl" id="youtube"><i class="fab fa-youtube"></i></li>
-		</ul>
-
+				<li class="icon-lbl" id="facebook"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="icon-lbl" id="twitter"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li class="icon-lbl" id="youtube"><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p id="revel">RELAX | RELISH | REVEL</p>
+			<p id="copyright">© Copyright 2018 Revel Restaurant 2018</p>
 		</div>
-
-		
-		
-
-			
-		</div>
-		
-
-
-
-
-
-
 	</div>
-
-
-
-
-
 <script
 	  src="https://code.jquery.com/jquery-3.3.1.min.js"
 	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
