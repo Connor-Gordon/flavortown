@@ -27,6 +27,14 @@ ul {
 	margin-bottom: 0px;
 }
 
+#menu {
+	color: white;
+}
+
+#appetizername {
+	color: white;
+}
+
 .tabList li a {
 	margin: 10px;
 	text-decoration: none;
